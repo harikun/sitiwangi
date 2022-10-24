@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="148" viewBox="0 0 148 148">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ba70a3"/>
+      <stop offset="1" stop-color="#bb9cb2"/>
+    </linearGradient>
+    <filter id="Ellipse_40" x="0" y="0" width="148" height="148" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_40)">
+      <circle id="Ellipse_40-2" data-name="Ellipse 40" cx="65" cy="65" r="65" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M22.775,13.332A11.676,11.676,0,1,0,34.451,25.008,11.657,11.657,0,0,0,22.775,13.332Zm0,19.267a7.591,7.591,0,1,1,7.591-7.591A7.6,7.6,0,0,1,22.775,32.6ZM37.652,12.854a2.723,2.723,0,1,1-2.723-2.723A2.717,2.717,0,0,1,37.652,12.854Zm7.733,2.764c-.173-3.648-1.006-6.879-3.679-9.542s-5.894-3.5-9.542-3.679c-3.76-.213-15.029-.213-18.789,0C9.737,2.57,6.506,3.4,3.833,6.066S.338,11.96.155,15.608c-.213,3.76-.213,15.029,0,18.789.173,3.648,1.006,6.879,3.679,9.542s5.894,3.5,9.542,3.679c3.76.213,15.029.213,18.789,0,3.648-.173,6.879-1.006,9.542-3.679s3.5-5.894,3.679-9.542c.213-3.76.213-15.019,0-18.779ZM40.527,38.431A7.685,7.685,0,0,1,36.2,42.76c-3,1.189-10.111.915-13.424.915s-10.436.264-13.424-.915a7.685,7.685,0,0,1-4.329-4.329c-1.189-3-.915-10.111-.915-13.424s-.264-10.436.915-13.424A7.685,7.685,0,0,1,9.351,7.255c3-1.189,10.111-.915,13.424-.915s10.436-.264,13.424.915a7.685,7.685,0,0,1,4.329,4.329c1.189,3,.915,10.111.915,13.424S41.716,35.444,40.527,38.431Z" transform="translate(42.288 40.193)" fill="#fff"/>
+  </g>
+</svg>

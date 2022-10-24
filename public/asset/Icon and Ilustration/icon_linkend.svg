@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="148" height="148" viewBox="0 0 148 148">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ba70a3"/>
+      <stop offset="1" stop-color="#bb9cb2"/>
+    </linearGradient>
+    <filter id="Ellipse_40" x="0" y="0" width="148" height="148" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Ellipse_40)">
+      <circle id="Ellipse_40-2" data-name="Ellipse 40" cx="65" cy="65" r="65" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M7.821,34.939H.577V11.613H7.821ZM4.2,8.431A4.215,4.215,0,1,1,8.39,4.2,4.23,4.23,0,0,1,4.2,8.431ZM34.932,34.939H27.7V23.584c0-2.706-.055-6.177-3.766-6.177-3.766,0-4.343,2.94-4.343,5.982v11.55H12.358V11.613h6.947v3.182h.1a7.611,7.611,0,0,1,6.854-3.767c7.331,0,8.679,4.828,8.679,11.1V34.939Z" transform="translate(47.368 43.408)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="274" height="152" viewBox="0 0 274 152">
+  <g id="Group_193" data-name="Group 193" transform="translate(-433 -569)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="274" height="152" rx="23" transform="translate(433 569)" fill="#b16a9b"/>
+    <path id="Intersection_2" data-name="Intersection 2" d="M0,58C.256,25.922,26.573,0,59,0s58.743,25.922,59,58Z" transform="translate(486 663)" fill="rgba(209,110,178,0.68)"/>
+    <path id="Intersection_1" data-name="Intersection 1" d="M1.443,134A114.848,114.848,0,0,1,0,115.814C0,51.852,52.69,0,117.685,0A119.274,119.274,0,0,1,155,5.943V111a23,23,0,0,1-23,23Z" transform="translate(552 587)" fill="rgba(206,124,181,0.77)"/>
+    <path id="Path_7" data-name="Path 7" d="M180.56,665.29s46.987-7.739,72.238,11.017,28.221,64.143,28.221,64.143H196.881a24.413,24.413,0,0,1-11.563-7.439,23.931,23.931,0,0,1-4.443-12.478c-.365-8-.1-23.7-.536-32.793C180.56,676.144,180.56,665.29,180.56,665.29Z" transform="translate(252.686 -20.264)" fill="rgba(198,127,176,0.51)"/>
+    <g id="package_1_" data-name="package (1)" transform="translate(457 611.072)">
+      <g id="Group_142" data-name="Group 142" transform="translate(19.084 48.367)">
+        <g id="Group_141" data-name="Group 141">
+          <path id="Path_3988" data-name="Path 3988" d="M147.306,370a1.307,1.307,0,1,0,1.307,1.307A1.308,1.308,0,0,0,147.306,370Z" transform="translate(-145.999 -370.002)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_144" data-name="Group 144" transform="translate(0 0.002)">
+        <g id="Group_143" data-name="Group 143" transform="translate(0 0)">
+          <path id="Path_3989" data-name="Path 3989" d="M58.841,24.838l7.7-7.7A1.307,1.307,0,0,0,66,14.962L47.247,9.172a13.073,13.073,0,0,0-24.6-.984L.917,14.963a1.307,1.307,0,0,0-.535,2.172l7.906,7.906L3.3,33.351a1.307,1.307,0,0,0,.708,1.913l7.232,2.41v20.1A1.307,1.307,0,0,0,12.089,59c4.422,1.658,20.851,7.82,20.939,7.851a1.3,1.3,0,0,0,.836.012l.012,0,23.529-7.843a1.307,1.307,0,0,0,.894-1.24V37.136l7.712-2.423a1.307,1.307,0,0,0,.533-2.171Zm-11-11.764c0-.332-.014-.664-.039-.994l15.358,4.74-6.522,6.522L45.982,19.791A13.109,13.109,0,0,0,47.842,13.074Zm-22.963-3.4a10.457,10.457,0,0,1,20.349,3.4A10.456,10.456,0,0,1,34.77,23.531a10.466,10.466,0,0,1-9.892-13.86ZM3.76,16.815l18.078-5.637a13.179,13.179,0,0,0-.139,1.9,12.993,12.993,0,0,0,1.449,5.983l-12.86,4.286ZM6.382,33.3l4.133-6.889,20.988,7L27.37,40.295ZM32.156,63.735l-18.3-6.863V38.546c14.4,4.774,13.7,4.628,14.1,4.628a1.308,1.308,0,0,0,1.121-.635L32.156,37.4ZM33.463,31.3l-19.4-6.465,10.561-3.52a13.068,13.068,0,0,0,19.7.676l8.534,2.844ZM55.685,56.836,34.77,63.808v-27.4L39.4,42.2a1.307,1.307,0,0,0,1.413.43l14.868-4.672Zm-14.8-16.969-5.232-6.539,20.984-6.995,6.531,6.531Z" transform="translate(0 -0.002)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_146" data-name="Group 146" transform="translate(24.02 50.095)">
+        <g id="Group_145" data-name="Group 145">
+          <path id="Path_3990" data-name="Path 3990" d="M188.43,384.393l-2.907-1.09a1.307,1.307,0,1,0-.918,2.448l2.907,1.09a1.307,1.307,0,0,0,.918-2.448Z" transform="translate(-183.757 -383.219)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_148" data-name="Group 148" transform="translate(19.084 53.828)">
+        <g id="Group_147" data-name="Group 147">
+          <path id="Path_3991" data-name="Path 3991" d="M155.6,414.8l-7.843-2.941a1.307,1.307,0,1,0-.918,2.448l7.843,2.941a1.307,1.307,0,1,0,.918-2.448Z" transform="translate(-145.995 -411.779)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_150" data-name="Group 150" transform="translate(29.541 7.845)">
+        <g id="Group_149" data-name="Group 149">
+          <path id="Path_3992" data-name="Path 3992" d="M238.687,60.384a1.307,1.307,0,0,0-1.849,0L229.92,67.3l-1.69-1.69a1.307,1.307,0,0,0-1.849,1.849L229,70.075a1.307,1.307,0,0,0,1.849,0l7.843-7.843A1.307,1.307,0,0,0,238.687,60.384Z" transform="translate(-225.998 -60.001)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <text id="Terkonfirmasi" transform="translate(470 699)" fill="#fff" font-size="16" font-family="SegoeUI-Semilight, Segoe UI" font-weight="300"><tspan x="0" y="0">Terkonfirmasi</tspan></text>
+  </g>
+</svg>
