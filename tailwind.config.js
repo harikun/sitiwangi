@@ -3,32 +3,35 @@ module.exports = {
   content: ["./public/*.{html,js}"],
   theme: {
     extend: {},
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      roboto: ["Roboto", "sans-serif"],
+      merchant: ["Merchant Copy", "sans-serif"],
+    },
   },
   daisyui: {
     themes: [
       {
         mytheme: {
-          primary: "#B6639B",
+          primary: "#B6639B", //pink: "#B6639B",
 
-          secondary: "#DAAFCD",
+          secondary: "#DAAFCD", // lightpink: "#DAAFCD",
 
-          white: "#FFFFFF",
+          accent: "#483D7F", //purple: "#483D7F",
 
-          accent: "#1FB2A6",
-
-          neutral: "#191D24",
+          neutral: "#D8D2F5", //lightpurple: "#D8D2F5",
 
           "base-100": "#2A303C",
 
-          info: "#3ABFF8",
+          info: "#F5F5F5", // gray: "#F5F5F5",
 
-          success: "#36D399",
+          success: "#E7ADD5", // footerlightpurple: "#E7ADD5",
 
           warning: "#FBBD23",
 
           error: "#F87272",
 
-          purple: "#474444",
+          white: "#FFFFFF",
         },
       },
     ],
