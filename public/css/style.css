@@ -2071,32 +2071,20 @@ html {
   left: 10rem;
 }
 
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.top-2 {
-  top: 0.5rem;
-}
-
-.left-5 {
-  left: 1.25rem;
-}
-
-.left-10 {
-  left: 2.5rem;
+.top-10 {
+  top: 2.5rem;
 }
 
 .left-12 {
   left: 3rem;
 }
 
-.top-10 {
-  top: 2.5rem;
+.left-20 {
+  left: 5rem;
+}
+
+.left-24 {
+  left: 6rem;
 }
 
 .z-10 {
@@ -2135,14 +2123,14 @@ html {
   margin-right: 0.5rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .ml-14 {
@@ -2394,10 +2382,6 @@ html {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
-  background-image: url('/img/hero-pattern.svg');
 }
 
 .from-primary {
