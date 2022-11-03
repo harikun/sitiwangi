@@ -11,7 +11,7 @@
   <body>
     <div class="@container text-poppins">
       <!-- navbar -->
-      <div class="pl-14 navbar bg-primary">
+      <div class="navbar bg-primary pl-14">
         <div class="flex-none">
           <img src="./asset/image/logo-v02.png" alt="logo siti wangi" />
         </div>
@@ -33,61 +33,120 @@
 
       <!-- alur pemesanan -->
 
-      <div class="@container col-span-4">
-        <div class="overflow-x-auto">
-          <table class="table w-full">
-            <!-- head -->
-
-            <thead>
-              <tr>
-                <th>Jenis Kertas</th>
-                <th>Gramasi</th>
-                <th>Jenis Tinta</th>
-                <th>Laminasi</th>
-                <th>Qty</th>
-              </tr>
-            </thead>
-            <tbody>
-              <!-- row 1 -->
-              <tr>
-                <td>Art Paper</td>
-                <td>260G</td>
-                <td>Tintaku Padamu</td>
-                <td>Glossy</td>
-                <td>50</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                  <button class="btn mx-auto">Lanjut Invoice</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+      <!-- form kebutuhan  -->
+      <section>
+        <div class="@container">
+          <div class="hero h-[450px] bg-white">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="text-center lg:text-left">
+                <img src="./asset/image/Printer-amico.png" alt="" />
+              </div>
+              <div
+                class="card w-full max-w-sm flex-shrink-0 bg-base-100 shadow-2xl"
+              >
+                <div class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Email</span>
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="email"
+                      class="input-bordered input"
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Password</span>
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="password"
+                      class="input-bordered input"
+                    />
+                    <label class="label">
+                      <a href="#" class="link-hover label-text-alt link"
+                        >Forgot password?</a
+                      >
+                    </label>
+                  </div>
+                  <div class="form-control mt-6">
+                    <button class="btn-primary btn">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <!-- footer  -->
-      <div class="col-span-4 bg-white h-24">
+      <section class="bg-white">
+        <div
+          class="@container col-span-4 mx-14 h-[360px] border-4 p-10 shadow-lg"
+        >
+          <h3 class="text-2xl text-primary">Kalkulasi Harga</h3>
+          <div class="overflow-x-auto">
+            <table class="my-5 table w-full">
+              <!-- head -->
+              <thead>
+                <tr>
+                  <th>Jenis Kertas</th>
+                  <th>Gramasi</th>
+                  <th>Jenis Tinta</th>
+                  <th>Laminasi</th>
+                  <th>Qty</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr>
+                  <td>Art Paper</td>
+                  <td>260G</td>
+                  <td>Tintaku Padamu</td>
+                  <td>Glossy</td>
+                  <td>50</td>
+                </tr>
+              </tbody>
+            </table>
+            <button class="btn-primary btn float-right">Lanjut Invoice</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="h-24 w-full bg-white">
         <h3 class="text-center text-2xl text-accent">Our Work</h3>
       </div>
 
       <!-- our work -->
-      <div class="@container col-span-4 h-[470px] bg-white">
-        <div class="grid overflow-hidden grid-cols-3 grid-rows-none">
-          <img src="./asset/image/our-work.png" alt="our work" srcset="" />
-          <img src="./asset/image/our-work.png" alt="our work" srcset="" />
-          <img src="./asset/image/our-work.png" alt="our work" srcset="" />
+      <section>
+        <div class="@container col-span-4 h-[470px] bg-white">
+          <div class="grid grid-cols-3 grid-rows-none overflow-hidden">
+            <img
+              src="./asset/image/our-work.png"
+              alt="our work"
+              srcset=""
+              class="mx-auto"
+            />
+            <img
+              src="./asset/image/our-work.png"
+              alt="our work"
+              srcset=""
+              class="mx-auto"
+            />
+            <img
+              src="./asset/image/our-work.png"
+              alt="our work"
+              srcset=""
+              class="mx-auto"
+            />
+          </div>
         </div>
-      </div>
+      </section>
 
       <!-- footer  -->
-      <footer class="@container bg-accent col-span-4 footer">
-        <div class="text-white ml-20">
-          <span class="footer-title text-white mt-20">Address</span>
+      <footer class="@container footer col-span-4 bg-accent">
+        <div class="ml-20 text-white">
+          <span class="footer-title mt-20 text-white">Address</span>
           <p>
             Jl. Raya Mantup Desa Pelang RT. 01 RW. 02
             <br />
@@ -95,7 +154,7 @@
             Kec. Kembangbahu Kab. Lamongan.
           </p>
 
-          <span class="footer-title text-white mt-10">Open Time</span>
+          <span class="footer-title mt-10 text-white">Open Time</span>
           <p>
             Mon - Fri 06.30 - 21.00 <br />
             Sunday 08.00-22.00
@@ -103,11 +162,11 @@
         </div>
 
         <div class="text-white">
-          <span class="footer-title text-white mt-20">Contact Us</span>
-          <a class="link link-hover">031 - 79334824</a>
-          <a class="link link-hover">031 - 711234123</a>
-          <a class="link link-hover">031 - 79334824</a>
-          <a class="link link-hover">info@sitiwangimediatech.com</a>
+          <span class="footer-title mt-20 text-white">Contact Us</span>
+          <a class="link-hover link">031 - 79334824</a>
+          <a class="link-hover link">031 - 711234123</a>
+          <a class="link-hover link">031 - 79334824</a>
+          <a class="link-hover link">info@sitiwangimediatech.com</a>
         </div>
       </footer>
     </div>
