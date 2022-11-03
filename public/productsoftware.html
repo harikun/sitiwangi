@@ -33,14 +33,14 @@
       <!-- end navbar -->
 
       <!-- main -->
-      <main class="grid overflow-hidden grid-cols-4 grid-rows-2">
+      <main class="@container grid overflow-hidden grid-cols-4 grid-rows-2">
         <!-- hero section  -->
         <div class="col-span-4">
           <div
             class="hero h-[500px]"
             style="background-image: url(./asset/image/pexels-frans-va.png)"
           >
-            <div class="hero-overlay opacity-80"></div>
+            <div class="hero-overlay"></div>
             <div class="hero-content text-neutral-content">
               <div class="">
                 <h1 class="mb-5 text-5xl font-bold uppercase text-primary">
@@ -116,7 +116,7 @@
               src="./asset/image/consulting.png"
               alt="icon consulting"
               srcset=""
-              class="absolute top-10 left-20 mx-auto"
+              class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
             />
           </div>
           <p class="text-center">Klien Konsultasi soal kebutuhan Mobile Apps</p>
@@ -133,7 +133,7 @@
               src="./asset/image/profiling_.png"
               alt="icon consulting"
               srcset=""
-              class="absolute top-10 left-24"
+              class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
             />
           </div>
           <p class="text-center">Tim Membuat Proposal Sesuai Kebutuhan Klien</p>
@@ -150,7 +150,7 @@
               src="./asset/image/money_tran.png"
               alt="icon consulting"
               srcset=""
-              class="absolute top-10 left-12 mx-auto"
+              class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
             />
           </div>
           <p class="text-center">Pembayaran DP dan Tanda Tanggan Kontrak</p>
@@ -167,7 +167,7 @@
               src="./asset/image/_analytics_.png"
               alt="icon analityc"
               srcset=""
-              class="absolute top-10 left-12 mx-auto"
+              class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
             />
             <p class="text-center">
               Tim Melakukan Analisis Kebutuhan dan membuat rancangan Apps
@@ -175,7 +175,7 @@
           </div>
         </div>
 
-        <div class="col-span-4">
+        <div class="@container col-span-4">
           <div class="grid overflow-hidden grid-cols-3 grid-rows-none">
             <div class="bg-white">
               <div class="relative">
@@ -189,7 +189,7 @@
                   src="./asset/image/social-media.png"
                   alt="icon analityc"
                   srcset=""
-                  class="absolute top-10 left-12"
+                  class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
                 />
                 <p class="text-center">Finalisasi Mobile Apps dan Installasi</p>
               </div>
@@ -206,7 +206,7 @@
                   src="./asset/image/analytics_.png"
                   alt="icon analityc"
                   srcset=""
-                  class="absolute top-10 left-12 mx-auto"
+                  class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
                 />
                 <p class="text-center">Review Draft Mobile Apps</p>
               </div>
@@ -223,7 +223,7 @@
                   src="./asset/image/online_tea.png"
                   alt="icon analityc"
                   srcset=""
-                  class="absolute top-10 left-12 mx-auto"
+                  class="absolute top-[25%] left-[25%] mx-auto w-[150px] h-[100px]"
                 />
                 <p class="text-center">Review Rancangan Apps kepada Klien</p>
               </div>
@@ -232,7 +232,7 @@
         </div>
 
         <!-- form kebutuhan  -->
-        <div class="hero col-span-4 h-[500px] bg-white">
+        <div class="@container hero col-span-4 h-[500px]">
           <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="text-center lg:text-left">
               <object
@@ -267,7 +267,7 @@
                   ></textarea>
                 </div>
                 <div
-                  class="form-control grid overflow-hidden grid-cols-2 grid-rows-none gap-1"
+                  class="form-control grid overflow-hidden grid-cols-2 grid-rows-none"
                 >
                   <input
                     type="text"
@@ -290,17 +290,29 @@
         </div>
 
         <!-- table pricing -->
-        <div class="col-span-4">
+        <div class="@container col-span-4">
           <div class="overflow-x-auto">
             <table class="table w-full">
               <!-- head -->
               <thead>
                 <tr>
                   <th></th>
-                  <th>STANDART</th>
-                  <th>BUSSINESS</th>
-                  <th>CORPORATE</th>
-                  <th>CUSTOM</th>
+                  <th>
+                    <p>STANDART</p>
+                    <p>RP. 3,000,000</p>
+                  </th>
+                  <th>
+                    <p>BUSSINESS</p>
+                    <p>RP. 4,500,000</p>
+                  </th>
+                  <th>
+                    <p>CORPORATE</p>
+                    <p>RP. 8,600,000</p>
+                  </th>
+                  <th>
+                    <p>CUSTOM</p>
+                    <p>CALL US FOR INFO</p>
+                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -329,13 +341,65 @@
                   <td></td>
                   <td></td>
                 </tr>
+                <!-- row 4 -->
+                <tr>
+                  <th>Admins Tools</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <!-- row 5 -->
+                <tr>
+                  <th>Documentation</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <!-- row 6 -->
+                <tr>
+                  <th>Support 24/7</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <!-- row 7 -->
+                <tr>
+                  <th>Domain .com/.co.id/.id</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th></th>
+                  <td><button class="btn">Book</button></td>
+                  <td><button class="btn">Book</button></td>
+                  <td><button class="btn">Book</button></td>
+                  <td><button class="btn">Book</button></td>
+                </tr>
               </tbody>
             </table>
           </div>
         </div>
 
+        <div class="col-span-4 bg-white h-24">
+          <h3 class="text-center text-2xl text-accent">Our Work</h3>
+        </div>
+
+        <!-- our work -->
+        <div class="@container col-span-4 h-[470px] bg-white">
+          <div class="grid overflow-hidden grid-cols-3 grid-rows-none">
+            <img src="./asset/image/our-work.png" alt="our work" srcset="" />
+            <img src="./asset/image/our-work.png" alt="our work" srcset="" />
+            <img src="./asset/image/our-work.png" alt="our work" srcset="" />
+          </div>
+        </div>
+
         <!-- footer  -->
-        <footer class="bg-accent col-span-4 footer">
+        <footer class="@container bg-accent col-span-4 footer">
           <div class="text-white ml-20">
             <span class="footer-title text-white mt-20">Address</span>
             <p>
