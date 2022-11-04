@@ -716,13 +716,6 @@ html {
   flex-grow: 1;
 }
 
-.card-actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
 .card figure {
   display: flex;
   align-items: center;
@@ -2086,40 +2079,12 @@ html {
   left: 25%;
 }
 
-.top-24 {
-  top: 6rem;
-}
-
-.top-11 {
-  top: 2.75rem;
-}
-
 .top-10 {
   top: 2.5rem;
 }
 
-.top-9 {
-  top: 2.25rem;
-}
-
-.left-9 {
-  left: 2.25rem;
-}
-
 .left-12 {
   left: 3rem;
-}
-
-.right-12 {
-  right: 3rem;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.top-28 {
-  top: 7rem;
 }
 
 .top-32 {
@@ -2180,6 +2145,16 @@ html {
   margin-bottom: 0.75rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mx-14 {
   margin-left: 3.5rem;
   margin-right: 3.5rem;
@@ -2188,11 +2163,6 @@ html {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .ml-14 {
@@ -2247,16 +2217,8 @@ html {
   margin-top: 0.5rem;
 }
 
-.-mr-10 {
-  margin-right: -2.5rem;
-}
-
 .-mb-10 {
   margin-bottom: -2.5rem;
-}
-
-.-mb-1 {
-  margin-bottom: -0.25rem;
 }
 
 .flex {
@@ -2311,20 +2273,16 @@ html {
   height: 9rem;
 }
 
+.h-60 {
+  height: 15rem;
+}
+
 .h-\[560px\] {
   height: 560px;
 }
 
 .h-\[360px\] {
   height: 360px;
-}
-
-.h-\[276px\] {
-  height: 276px;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .w-80 {
@@ -2367,12 +2325,8 @@ html {
   width: 10rem;
 }
 
-.w-\[368px\] {
-  width: 368px;
-}
-
-.w-60 {
-  width: 15rem;
+.w-1\/2 {
+  width: 50%;
 }
 
 .max-w-2xl {
@@ -2427,8 +2381,16 @@ html {
   flex-direction: column;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-around {
@@ -2443,11 +2405,6 @@ html {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
-}
-
-.divide-blue-200 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgb(191 219 254 / var(--tw-divide-opacity));
 }
 
 .overflow-hidden {
@@ -2493,16 +2450,6 @@ html {
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: hsl(var(--a) / var(--tw-bg-opacity));
-}
-
-.bg-base-100 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b1) / var(--tw-bg-opacity));
-}
-
-.bg-secondary {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--s) / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -2602,6 +2549,11 @@ html {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
