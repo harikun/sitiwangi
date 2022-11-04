@@ -31,47 +31,85 @@
         </div>
       </div>
 
+      <!-- cetak kartu nama  -->
+      <section class="grid grid-cols-4 grid-rows-2 overflow-hidden bg-white">
+        <div class="relative col-span-2">
+          <div
+            class="card absolute top-10 left-12 h-60 w-72 rounded-lg bg-primary"
+          ></div>
+
+          <div
+            class="card absolute left-40 top-32 h-60 w-72 rounded-lg bg-accent"
+          ></div>
+          <img
+            src="./asset/image/kartu-nama.png"
+            class="absolute z-20 rounded-lg object-center"
+            alt=" name card"
+          />
+        </div>
+
+        <div class="col-span-2 p-10">
+          <span class="0 btn-primary btn -mb-10 text-white"
+            >Cetak Kartu Nama</span
+          >
+          <p class="card my-auto p-5 text-left shadow-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+          </p>
+        </div>
+      </section>
       <!-- alur pemesanan -->
 
       <!-- form kebutuhan  -->
-      <section>
+      <section class="h-[560px] bg-white">
         <div class="@container">
-          <div class="hero h-[450px] bg-white">
-            <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="hero h-[450px] bg-white px-20">
+            <div
+              class="hero-content flex flex-col justify-around lg:flex-row-reverse"
+            >
               <div class="text-center lg:text-left">
                 <img src="./asset/image/Printer-amico.png" alt="" />
               </div>
-              <div
-                class="card w-full max-w-sm flex-shrink-0 bg-base-100 shadow-2xl"
-              >
+              <div class="card w-full max-w-sm flex-shrink-0 shadow-2xl">
                 <div class="card-body">
+                  <h3 class="text-xl text-black">Form Kebutuhan</h3>
                   <div class="form-control">
-                    <label class="label">
-                      <span class="label-text">Email</span>
-                    </label>
                     <input
                       type="text"
-                      placeholder="email"
-                      class="input-bordered input"
+                      placeholder="Nama Barang"
+                      class="input-bordered input bg-white"
                     />
                   </div>
                   <div class="form-control">
-                    <label class="label">
-                      <span class="label-text">Password</span>
-                    </label>
+                    <input
+                      type="number"
+                      placeholder="Qty"
+                      class="input-bordered input bg-white"
+                    />
+                  </div>
+                  <div
+                    class="form-control grid grid-cols-2 grid-rows-none overflow-hidden"
+                  >
+                    <p class="text-xl text-primary">Spesifikasi</p>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="60"
+                      class="input-bordered input h-24 w-96 bg-white"
+                    ></textarea>
+                  </div>
+                  <div class="form-control">
                     <input
                       type="text"
-                      placeholder="password"
-                      class="input-bordered input"
+                      placeholder="Jenis Pembelian"
+                      class="input-bordered input bg-white"
                     />
-                    <label class="label">
-                      <a href="#" class="link-hover label-text-alt link"
-                        >Forgot password?</a
-                      >
-                    </label>
                   </div>
                   <div class="form-control mt-6">
-                    <button class="btn-primary btn">Login</button>
+                    <button class="btn-primary btn float-right">Login</button>
                   </div>
                 </div>
               </div>
@@ -86,25 +124,25 @@
         >
           <h3 class="text-2xl text-primary">Kalkulasi Harga</h3>
           <div class="overflow-x-auto">
-            <table class="my-5 table w-full">
+            <table class="divide-black-200 my-5 table w-full divide-y">
               <!-- head -->
               <thead>
-                <tr>
-                  <th>Jenis Kertas</th>
-                  <th>Gramasi</th>
-                  <th>Jenis Tinta</th>
-                  <th>Laminasi</th>
-                  <th>Qty</th>
+                <tr class="text-primary">
+                  <th class="bg-white">Jenis Kertas</th>
+                  <th class="bg-white">Gramasi</th>
+                  <th class="bg-white">Jenis Tinta</th>
+                  <th class="bg-white">Laminasi</th>
+                  <th class="bg-white">Qty</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody class="text-black">
                 <!-- row 1 -->
                 <tr>
-                  <td>Art Paper</td>
-                  <td>260G</td>
-                  <td>Tintaku Padamu</td>
-                  <td>Glossy</td>
-                  <td>50</td>
+                  <td class="bg-white">Art Paper</td>
+                  <td class="bg-white">260G</td>
+                  <td class="bg-white">Tintaku Padamu</td>
+                  <td class="bg-white">Glossy</td>
+                  <td class="bg-white">50</td>
                 </tr>
               </tbody>
             </table>
