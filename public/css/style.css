@@ -2327,6 +2327,11 @@ html {
   margin-right: 3.5rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -2453,6 +2458,14 @@ html {
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .flex {
@@ -2659,6 +2672,18 @@ html {
   width: 276px;
 }
 
+.w-\[550px\] {
+  width: 550px;
+}
+
+.w-\[560px\] {
+  width: 560px;
+}
+
+.w-\[400px\] {
+  width: 400px;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
@@ -2761,6 +2786,10 @@ html {
 
 .justify-around {
   justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-1 {
@@ -2947,6 +2976,11 @@ html {
   padding-right: 1rem;
 }
 
+.px-36 {
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
 .pl-14 {
   padding-left: 3.5rem;
 }
@@ -2969,6 +3003,10 @@ html {
 
 .text-right {
   text-align: right;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .align-middle {
