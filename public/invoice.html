@@ -8,8 +8,8 @@
 
     <title>CV SITI WANGI MEDIATECH</title>
   </head>
-  <body>
-    <div class="@container text-poppins bg-white">
+  <body class="bg-white">
+    <div class="@container text-poppins">
       <!-- navbar -->
       <div class="navbar bg-primary pl-14">
         <div class="flex-none">
@@ -33,7 +33,7 @@
     </div>
 
     <main
-      class="@container grid grid-cols-4 grid-rows-none gap-0 overflow-hidden bg-white"
+      class="@container grid grid-cols-4 grid-rows-none gap-0 overflow-visible"
     >
       <div
         class="col-span-4 h-[460px] w-full rounded-bl-[50px] rounded-br-[50px] bg-secondary"
@@ -44,37 +44,98 @@
       </div>
 
       <!-- pricing simuation -->
-      <div class="col-span-4 mx-auto h-[510px] w-[1160px] bg-white">
-        <h3 class="mb-10 ml-10 text-2xl text-primary">Pricing Simulation</h3>
+      <section
+        class="col-span-4 mx-auto -mt-72 h-[510px] w-[1160px] rounded-lg bg-white shadow-xl"
+      >
+        <h3 class="my-5 ml-10 text-2xl text-primary">Pricing Simulation</h3>
         <div class="bg overflow-x-auto">
-          <table class="table w-full table-auto">
+          <table class="@container table w-full table-auto px-10">
             <thead>
               <tr>
-                <th>Song</th>
-                <th>Artist</th>
-                <th>Year</th>
+                <th class="bg-white text-primary">Nama Barang</th>
+                <th class="bg-white text-primary">Spesifikasi</th>
+                <th class="bg-white text-primary">Qty</th>
+                <th class="bg-white text-primary">Harga</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-                <td>Malcolm Lockyer</td>
-                <td>1961</td>
+                <td class="bg-white text-black">Barang A</td>
+                <td class="bg-white text-black">Spesifikasi Dari Barang</td>
+                <td class="bg-white text-black">1</td>
+                <td class="bg-white text-black">Rp. 4,000,000</td>
               </tr>
               <tr>
-                <td>Witchy Woman</td>
-                <td>The Eagles</td>
-                <td>1972</td>
+                <td class="bg-white text-black">Barang A</td>
+                <td class="bg-white text-black">Spesifikasi Dari Barang</td>
+                <td class="bg-white text-black">1</td>
+                <td class="bg-white text-black">Rp. 4,000,000</td>
               </tr>
               <tr>
-                <td>Shining Star</td>
-                <td>Earth, Wind, and Fire</td>
-                <td>1975</td>
+                <td class="bg-white text-black">Barang A</td>
+                <td class="bg-white text-black">Spesifikasi Dari Barang</td>
+                <td class="bg-white text-black">1</td>
+                <td class="bg-white text-black">Rp. 4,000,000</td>
+              </tr>
+              <tr>
+                <td class="bg-white text-black">Barang A</td>
+                <td class="bg-white text-black">Spesifikasi Dari Barang</td>
+                <td class="bg-white text-black">1</td>
+                <td class="bg-white text-black">Rp. 4,000,000</td>
+              </tr>
+              <tr>
+                <td class="bg-white"></td>
+                <td class="bg-white"></td>
+                <td class="bg-white font-bold text-primary">Total Harga</td>
+                <td class="bg-white font-bold text-primary">Rp 16,000,000</td>
               </tr>
             </tbody>
           </table>
         </div>
-      </div>
+      </section>
+
+      <!-- form  pengiriman-->
+      <section class="col-span-4 mx-auto mt-8 mb-40 w-full max-w-2xl bg-white">
+        <div class="card-body">
+          <span class="my-8 text-center text-2xl text-primary"
+            >Form Pengiriman</span
+          >
+          <div class="form-control">
+            <input
+              type="text"
+              placeholder="Nama Lengkap"
+              class="input-bordered input bg-white"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="number"
+              placeholder="No. Telp"
+              class="input-bordered input bg-white"
+            />
+          </div>
+          <div class="form-control">
+            <textarea
+              name="Alamt"
+              placeholder="Alamat"
+              cols="30"
+              rows="10"
+              class="input-bordered input bg-white"
+            ></textarea>
+          </div>
+          <div class="form-control">
+            <input
+              type="email"
+              placeholder="Email"
+              class="input-bordered input bg-white"
+            />
+          </div>
+          <div class="flex items-center justify-between">
+            <div></div>
+            <button class="btn-primary btn text-white">Pesan Sekarang</button>
+          </div>
+        </div>
+      </section>
     </main>
 
     <div class="mt-28 bg-info">
