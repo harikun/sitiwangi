@@ -43,8 +43,10 @@
           <div
             class="mx-auto flex w-[550px] items-center justify-evenly rounded-full border-2 p-2"
           >
-            <button class="btn-primary btn">Pembelian Barang</button>
-            <button class="btn-outline btn-primary btn">
+            <button class="btn-primary btn rounded-full px-10">
+              Pembelian Barang
+            </button>
+            <button class="btn-outline btn-primary btn rounded-full">
               Pembelian Pulsa dan Token
             </button>
           </div>
@@ -62,14 +64,14 @@
         <!-- form section  -->
         <section>
           <div class="mt-12 flex items-center">
-            <div class="form-control mb-3">
+            <div class="form-control mb-3 mr-4">
               <input
                 type="text"
                 placeholder="Nama Transaksi"
                 class="input-bordered input w-[400px] bg-white"
               />
             </div>
-            <div class="form-control">
+            <div class="form-control mb-3">
               <input
                 type="text"
                 placeholder="Keterangan"
@@ -117,7 +119,7 @@
         <!-- list section  -->
         <section class="@container mb-28">
           <div
-            class="mx-auto mb-4 flex h-32 w-[1100px] items-center justify-between rounded-lg border-2 border-primary"
+            class="mx-auto mb-4 flex h-32 w-full items-center justify-between rounded-lg border-2 border-primary"
           >
             <div>
               <img
@@ -165,7 +167,7 @@
             </div>
           </div>
           <div
-            class="mx-auto mb-4 flex h-32 w-[1100px] items-center justify-between rounded-lg border-2 border-primary"
+            class="mx-auto mb-4 flex h-32 w-full items-center justify-between rounded-lg border-2 border-primary"
           >
             <div>
               <img
@@ -213,7 +215,7 @@
             </div>
           </div>
           <div
-            class="mx-auto mb-4 flex h-32 w-[1100px] items-center justify-between rounded-lg border-2 border-primary"
+            class="mx-auto mb-4 flex h-32 w-full items-center justify-between rounded-lg border-2 border-primary"
           >
             <div>
               <img
@@ -261,7 +263,7 @@
             </div>
           </div>
           <div
-            class="mx-auto mb-4 flex h-32 w-[1100px] items-center justify-between rounded-lg border-2 border-primary"
+            class="mx-auto mb-4 flex h-32 w-full items-center justify-between rounded-lg border-2 border-primary"
           >
             <div>
               <img
@@ -311,23 +313,28 @@
         </section>
 
         <div
-          class="mb-16 grid h-24 w-[1100px] grid-cols-2 grid-rows-none gap-0 overflow-hidden"
+          class="mb-16 grid h-24 w-full grid-cols-2 grid-rows-none gap-0 overflow-hidden rounded-lg bg-info"
         >
-          <div class="text-end">
-            <p>Total Jumlah Barang</p>
+          <div class="p-4 text-end">
+            <p class="text-black">Total Jumlah Barang</p>
             <p class="text-2xl font-bold text-primary">500</p>
           </div>
-          <div class="text-end">
-            <p>Total Harga</p>
+          <div class="p-4 text-end">
+            <p class="text-black">Total Harga</p>
             <p class="text-2xl font-bold text-primary">Rp16,000,000</p>
           </div>
         </div>
 
-        <div class="text-end">
+        <div class="mb-96 text-end">
           <button class="btn-primary btn mr-3 px-10">Save</button>
           <button class="btn-primary btn">Print Invoice</button>
         </div>
       </main>
+      <footer
+        class="block flex h-14 w-full justify-center bg-accent p-4 text-center text-sm text-white sm:text-center"
+      >
+        <span>2021 CV Siti Wangi Mediatech</span>
+      </footer>
     </div>
     <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
     <script>

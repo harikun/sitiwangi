@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>CV SITI WANGI MEDIATECH</title>
+  </head>
+  <body class="bg-white">
+    <div class="@container text-poppins">
+      <!-- navbar -->
+      <div class="navbar bg-primary pl-14">
+        <div class="flex-none">
+          <img src="./asset/image/logo-v02.png" alt="logo siti wangi" />
+        </div>
+        <div class="flex-1">
+          <div class="grid">
+            <a class="text-xl" href="./index.html">CV SITI WANGI MEDIATECH</a>
+            <p class="text-white">light up your dream and think different</p>
+          </div>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0 text-white">
+            <li><a href="./index.html">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <main class="@container mx-auto px-36">
+        <div class="mt-20">
+          <h3 class="text-end text-2xl text-black">
+            Selamat Datang Allvillage
+          </h3>
+          <p class="text-end">Last Login 14 Feb 2020 - 11:37</p>
+        </div>
+
+        <div class="mx-auto my-10 w-[560px]">
+          <h3 class="my-4 text-center text-2xl text-black">
+            Aplikasi Kasir CV Siti Wangi Mediatech
+          </h3>
+          <div
+            class="mx-auto flex w-[550px] items-center justify-evenly rounded-full border-2 p-2"
+          >
+            <button class="btn-primary btn-outline btn rounded-full px-10">Pembelian Barang</button>
+            <button class="btn-primary btn rounded-full">
+              Pembelian Pulsa dan Token
+            </button>
+          </div>
+        </div>
+
+        <p class="mb-2">
+          <span class="text-primary">No Transaksi :</span>
+          <span class="text-black">SWM.01.2038230</span>
+        </p>
+        <p>
+          <span class="text-primary">Tanggal :</span>
+          <span class="text-black">14 Februari 2021</span>
+        </p>
+
+        <!-- form section  -->
+        <section>
+          <div class="mt-12 flex items-center">
+            <div class="form-control mb-3 mr-4">
+              <input
+                type="text"
+                placeholder="Jenis Transaksi Pembayaran"
+                class="input-bordered input w-[400px] bg-white"
+              />
+            </div>
+            <div class="form-control mb-3">
+              <input
+                type="text"
+                placeholder="Metode Pembayaran"
+                class="input-bordered input w-[400px] bg-white"
+              />
+            </div>
+          </div>
+
+          <div class="mb-3 flex items-center">
+            <div class="form-control">
+              <input
+                type="number"
+                placeholder="No Tujuan"
+                class="input-bordered input mr-3 w-64 bg-white"
+              />
+            </div>
+            <div class="form-control">
+              <input
+                type="number"
+                placeholder="Nominal"
+                class="input-bordered input w-64 bg-white"
+              />
+            </div>
+          </div>
+            <button class="btn-primary btn">Add</button>
+          </div>
+          </div>
+        </section>
+
+        <!-- list section  -->
+
+
+        <div
+          class="mb-16 grid h-24 w-full grid-cols-2 grid-rows-none gap-0 overflow-hidden rounded-lg bg-info"
+        >
+          <div class="p-4 text-end">
+            <p class="text-black">Total Jumlah Barang</p>
+            <p class="text-2xl font-bold text-primary">500</p>
+          </div>
+          <div class="p-4 text-end">
+            <p class="text-black">Total Harga</p>
+            <p class="text-2xl font-bold text-primary">Rp16,000,000</p>
+          </div>
+        </div>
+
+        <div class="mb-96 text-end">
+          <button class="btn-primary btn mr-3 px-10">Save</button>
+          <button class="btn-primary btn">Print Invoice</button>
+        </div>
+      </main>
+
+      <footer
+        class="block flex h-14 w-full justify-center bg-accent p-4 text-center text-sm text-white sm:text-center"
+      >
+        <span>2021 CV Siti Wangi Mediatech</span>
+      </footer>
+    </div>
+    <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
