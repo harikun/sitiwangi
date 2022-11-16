@@ -37,8 +37,8 @@
         class="grid grid-cols-none grid-rows-none overflow-hidden bg-primary"
       >
         <!-- hero section -->
-        <div class="grid grid-cols-2 grid-rows-2 overflow-hidden">
-          <div class="ml-14 h-64">
+        <div class="grid grid-cols-12 grid-rows-2 overflow-hidden">
+          <div class="col-span-6 ml-14 h-64">
             <h1 class="mt-20 text-2xl uppercase text-white">solusi terbaik</h1>
             <p class="text-4xl font-bold uppercase text-white">
               Kebutuhan digital printing
@@ -50,7 +50,7 @@
             </p>
             <button class="btn-outline btn text-white">Tentang Kami</button>
           </div>
-          <div class="h-64">
+          <div class="col-span-6 h-64">
             <img
               src="./asset/image/front-view-youn-mdpi.png"
               class="max-w-2xl rounded-lg"
@@ -60,10 +60,10 @@
 
         <!-- main content  -->
         <div class="bg-white">
-          <div class="grid grid-cols-4 grid-rows-2 overflow-hidden">
+          <div class="grid grid-cols-12 grid-rows-2 overflow-hidden">
             <!-- produk terlaris  -->
-            <div class="col-span-4">
-              <h1 class="my-9 text-center text-2xl font-bold uppercase">
+            <div class="col-span-12">
+              <h1 class="my-9 text-center text-4xl text-accent">
                 Produk Terlaris
               </h1>
               <div class="flex justify-around">
@@ -72,6 +72,7 @@
                     <img
                       src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
                       alt="Free_Folded_A4_Brochure_Mockup_2"
+                      class="max-h-44 w-80"
                     />
                   </figure>
                   <div class="card-body">
@@ -110,45 +111,49 @@
             </div>
 
             <!-- Digital Printing Solution -->
-            <div class="col-span-2">
-              <div class="div">
+            <div class="col-span-6">
+              <div class="relative">
                 <img
                   src="./asset/image/preview.png"
-                  class="max-w-2xl rounded-lg"
+                  class="absolute z-30 max-w-2xl rounded-lg"
                 />
+                <div
+                  class="absolute top-12 left-12 z-20 h-72 w-72 rounded-lg bg-primary"
+                ></div>
+                <div
+                  class="absolute top-24 left-48 h-72 w-72 rounded-lg bg-accent"
+                ></div>
               </div>
             </div>
-            <div class="col-span-2">
-              <h2 class="text-purple mt-20 text-5xl font-bold">
-                Digital Printing Solution
-              </h2>
-              <p class="py-6 text-black">
+            <div class="col-span-6 text-black">
+              <h2 class="text-5x mt-20">Digital Printing Solution</h2>
+              <p class="py-6">
                 Kami hadir untuk memenuhi segala macam kebutuhan dan keperluan
                 anda dalam digital printing dan juga pemenuhan segala macam
                 kebutuhan IT yang dibutuhkan.
               </p>
-              <div class="grid grid-cols-2 text-black">
-                <ul>
-                  <li>Brosur</li>
-                  <li>Porster</li>
-                  <li>Undangan</li>
-                  <li>Stiker</li>
+              <div class="grid grid-cols-6" id="list">
+                <ul class="col-span-3">
+                  <li>✓ Brosur</li>
+                  <li>✓ Porster</li>
+                  <li>✓ Undangan</li>
+                  <li>✓ Stiker</li>
                 </ul>
-                <ul>
-                  <li>Kartu Nama</li>
-                  <li>Kartu Ucapan</li>
-                  <li>Foto</li>
-                  <li>Document</li>
+                <ul class="col-span-3">
+                  <li>✓ Kartu Nama</li>
+                  <li>✓ Kartu Ucapan</li>
+                  <li>✓ Foto</li>
+                  <li>✓ Document</li>
                 </ul>
               </div>
             </div>
             <!-- produk kategori 1 & 2 -->
-            <div class="col-span-4 text-center">
-              <h2 class="text-purple my-10 font-poppins text-5xl capitalize">
-                Produk kategori 1
+            <div class="col-span-12 text-center">
+              <h2 class="text-purple my-10 text-4xl text-accent">
+                Produk Kategori 1
               </h2>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -160,7 +165,7 @@
                 <p class="text-right">Start From Rp 20.000</p>
               </div>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -172,7 +177,7 @@
                 <p class="text-right">Start From Rp 20.000</p>
               </div>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -184,7 +189,7 @@
                 <p class="text-right">Start From Rp 20.000</p>
               </div>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -197,12 +202,12 @@
               </div>
             </div>
 
-            <div class="col-span-4 text-center">
-              <h2 class="text-purple my-10 font-poppins text-5xl capitalize">
+            <div class="col-span-12 text-center">
+              <h2 class="text-purple my-10 my-10 text-4xl text-accent">
                 Produk kategori 2
               </h2>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -214,7 +219,7 @@
                 <p class="text-right">Start From Rp 20.000</p>
               </div>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -226,7 +231,7 @@
                 <p class="text-right">Start From Rp 20.000</p>
               </div>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -238,7 +243,7 @@
                 <p class="text-right">Start From Rp 20.000</p>
               </div>
             </div>
-            <div class="card-compact card w-72 bg-white shadow-xl">
+            <div class="card-compact card col-span-3 w-72 bg-white shadow-xl">
               <figure>
                 <img
                   src="./asset/image/Free_Folded_A4_Brochure_Mockup_2.png"
@@ -251,21 +256,19 @@
               </div>
             </div>
             <!-- software developemt solution -->
-            <div class="col-span-2 mt-10">
+            <div class="col-span-6 mt-10">
               <img
-                src="./asset/image/design-removebg-preview.png"
+                src="./asset/image/software-index.png"
                 alt="design-removebg-preview"
                 srcset=""
               />
             </div>
-            <div class="@container col-span-2 mt-10">
+            <div class="col-span-6 mx-14 mt-10">
               <div class="@container">
-                <h3
-                  class="text-poppins mt-16 text-right text-2xl font-bold text-black"
-                >
+                <h3 class="mt-16 text-right text-2xl font-bold text-black">
                   Software Development Solution
                 </h3>
-                <p class="text-poppins mt-6 text-right text-black">
+                <p class="mt-6 text-right text-black">
                   Kami hadir untuk memenuhi segala macam kebutuhan dan keperluan
                   anda dalam digital printing dan juga pemenuhan segala macam
                   kebutuhan IT yang dibutuhkan.
@@ -281,11 +284,11 @@
               </div>
             </div>
             <!-- pricing -->
-            <div class="col-span-4 mb-28">
+            <div class="col-span-12 mb-28">
               <section
-                class="ml-14 grid grid-cols-3 grid-rows-none overflow-hidden"
+                class="ml-14 grid grid-cols-12 grid-rows-none overflow-hidden"
               >
-                <div class="card w-96 shadow-xl">
+                <div class="card col-span-4 w-96 shadow-xl">
                   <div class="card-body bg-primary">
                     <h2 class="card-title text-white">Website perusahaan</h2>
                   </div>
@@ -311,7 +314,7 @@
                     />
                   </div>
                 </div>
-                <div class="card w-96 shadow-xl">
+                <div class="card col-span-4 w-96 shadow-xl">
                   <div class="card-body bg-primary">
                     <h2 class="card-title text-white">Website perusahaan</h2>
                   </div>
@@ -337,7 +340,7 @@
                     />
                   </div>
                 </div>
-                <div class="card w-96 shadow-xl">
+                <div class="card col-span-4 w-96 shadow-xl">
                   <div class="card-body bg-primary">
                     <h2 class="card-title text-white">Website perusahaan</h2>
                   </div>
@@ -369,9 +372,9 @@
         </div>
         <!-- another solution from us -->
         <div
-          class="@container -mt-8 grid h-[450px] grid-cols-2 grid-rows-none overflow-hidden bg-info"
+          class="@container -mt-8 grid h-[450px] grid-cols-12 grid-rows-none overflow-hidden bg-info"
         >
-          <div class="@container ml-14">
+          <div class="col-span-6 ml-14">
             <h3 class="text-poppins mt-16 text-2xl font-bold text-black">
               Another Solution From Us
             </h3>
@@ -702,7 +705,7 @@
               </div>
             </div>
           </div>
-          <div class="@container mt-10 ml-10">
+          <div class="col-span-6 mt-10 ml-10">
             <div class="relative">
               <div
                 class="absolute top-8 left-6 h-56 w-56 rounded-lg bg-primary"
@@ -720,33 +723,34 @@
         </div>
         <!-- footer -->
         <div class="@container bg-white">
-          <div class="col-span-4 text-center">
-            <h2 class="text-purple my-10 font-poppins text-5xl capitalize">
-              Our Happy Customer
-            </h2>
+          <div class="col-span-12 text-center">
+            <h2 class="text-purple my-10 text-4xl">Our Happy Customer</h2>
           </div>
 
-          <div class="grid h-72 grid-cols-4 grid-rows-none overflow-hidden">
+          <div class="grid h-72 grid-cols-12 grid-rows-none overflow-hidden">
             <img
-              class="ml-10"
               src="./asset/image/garuda-indonesia-logo-BD82882F07-seeklogo.com.png"
               alt=" logo garuda"
               srcset=""
+              class="col-span-3 ml-10"
             />
             <img
               src="./asset/image/telkom-indonesia-logo-65ADA96D0A-seeklogo.com.png"
               alt="loog telkom"
               srcset=""
+              class="col-span-3"
             />
             <img
               src="./asset/image/Logo-Bank-BNI-PNG.png"
               alt="logo bni"
               srcset=""
+              class="col-span-3"
             />
             <img
               src="./asset/image/LOGO PEGADAIAN SYARIAH.png"
               alt=" logo PEGADAIAN"
               srcset=""
+              class="col-span-3"
             />
           </div>
 
@@ -759,14 +763,30 @@
             </div>
             <div class="text-white">
               <span class="footer-title mt-20 text-white">Contact Us</span>
-              <a class="link-hover link">031 - 79334824</a>
+              <div class="flex justify-between">
+                <i data-feather="phone"></i>
+                <a class="link-hover link"> 031 - 79334824</a>
+              </div>
+
               <a class="link-hover link">031 - 711234123</a>
-              <a class="link-hover link">031 - 79334824</a>
-              <a class="link-hover link">info@sitiwangimediatech.com</a>
+
+              <div class="flex justify-between">
+                <i data-feather="printer"></i>
+                <a class="link-hover link">031 - 79334824</a>
+              </div>
+              <div class="flex justify-between">
+                <i data-feather="mail"></i>
+                <a class="link-hover link">info@sitiwangimediatech.com</a>
+              </div>
             </div>
           </footer>
         </div>
       </div>
     </div>
+
+    <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>

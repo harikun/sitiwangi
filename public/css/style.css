@@ -464,10 +464,6 @@ html {
   white: #FFFFFF;
 }
 
-html {
-  font-family: Poppin, system-ui, sans-serif;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -2062,6 +2058,10 @@ html {
   }
 }
 
+.artboard.phone {
+  width: 320px;
+}
+
 .badge-md {
   height: 1.25rem;
   font-size: 0.875rem;
@@ -2261,6 +2261,22 @@ html {
   bottom: 16rem;
 }
 
+.top-12 {
+  top: 3rem;
+}
+
+.left-12 {
+  left: 3rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.left-48 {
+  left: 12rem;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -2309,10 +2325,6 @@ html {
   top: 2.5rem;
 }
 
-.left-12 {
-  left: 3rem;
-}
-
 .top-32 {
   top: 8rem;
 }
@@ -2321,16 +2333,20 @@ html {
   right: 2.5rem;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-0 {
   z-index: 0;
-}
-
-.z-20 {
-  z-index: 20;
 }
 
 .col-span-4 {
@@ -2343,6 +2359,14 @@ html {
 
 .col-span-3 {
   grid-column: span 3 / span 3;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .col-span-8 {
@@ -2386,6 +2410,11 @@ html {
   margin-bottom: 2.5rem;
 }
 
+.mx-14 {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+}
+
 .my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -2399,11 +2428,6 @@ html {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.mx-14 {
-  margin-left: 3.5rem;
-  margin-right: 3.5rem;
 }
 
 .-my-1 {
@@ -2758,6 +2782,10 @@ html {
   height: 486px;
 }
 
+.max-h-44 {
+  max-height: 11rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -2929,6 +2957,10 @@ html {
 
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-1 {
@@ -3221,12 +3253,12 @@ html {
   padding-top: 6rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .pb-52 {
   padding-bottom: 13rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .text-left {
@@ -3251,10 +3283,6 @@ html {
 
 .align-middle {
   vertical-align: middle;
-}
-
-.font-poppins {
-  font-family: Poppins, sans-serif;
 }
 
 .text-xl {
