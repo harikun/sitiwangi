@@ -31,9 +31,11 @@
         </div>
       </div>
       <!-- end navbar -->
-      <div class="@container grid grid-cols-4 grid-rows-none overflow-hidden">
+      <div
+        class="@container grid grid-cols-12 grid-rows-none overflow-hidden bg-white"
+      >
         <!-- hero section  -->
-        <div class="@container col-span-4">
+        <div class="@container col-span-12">
           <div
             class="hero h-[500px]"
             style="background-image: url(./asset/image/pexels-frans-va.png)"
@@ -49,131 +51,553 @@
                   anda dalam digital printing dan juga pemenuhan segala macam
                   kebutuhan IT yang dibutuhkan.
                 </p>
-                <button class="btn-outline btn capitalize text-white">
-                  tentang kami
-                </button>
+                <button class="btn-outline btn text-white">Tentang Kami</button>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- produk grid  -->
-        <section class="@containercol-span-4 bg-white">
-          <div class="grid grid-cols-3 grid-rows-none gap-1 overflow-hidden">
-            <div class="">
-              <div class="form-control text-center">
-                <div class="flex-none">
-                  <select
-                    class="l select-bordered select w-64 rounded-l-lg bg-primary"
-                  >
-                    <option disabled selected>Harga</option>
-                    <option>T-shirts</option>
-                    <option>Mugs</option>
-                  </select>
-                </div>
-              </div>
-              <div class="form-control mt-2 border-2">
-                <label class="input-group-sm input-group my-3">
-                  <input
-                    type="text"
-                    placeholder="Harga Minimum"
-                    class="input-bordered input input-sm mx-auto bg-white"
-                  />
-                </label>
-                <label class="input-group-sm input-group">
-                  <input
-                    type="text"
-                    placeholder="Harga Maksimum"
-                    class="input-bordered input input-sm mx-auto bg-white"
-                  />
-                </label>
+        <!-- col-span-3 -->
+        <div class="col-span-3 ml-14">
+          <div class="form-control mt-4 text-center">
+            <div class="flex-none">
+              <select
+                class="select-bordered select w-64 rounded-l-lg bg-primary"
+              >
+                <option disabled selected>Harga</option>
+              </select>
+            </div>
+          </div>
+
+          <div
+            class="form-control mx-auto w-64 rounded-lg border-2 border-primary p-4"
+          >
+            <input
+              type="text"
+              placeholder="Harga Minimum"
+              class="input-bordered input input-sm mx-auto mb-4 bg-white"
+            />
+
+            <input
+              type="text"
+              placeholder="Harga Maksimum"
+              class="input-bordered input input-sm mx-auto bg-white"
+            />
+          </div>
+
+          <div class="form-control text-center">
+            <div class="flex-none">
+              <select
+                class="select-bordered select w-64 rounded-l-lg bg-primary"
+              >
+                <option disabled selected>Kategori</option>
+                <option>T-shirts</option>
+                <option>Mugs</option>
+              </select>
+            </div>
+          </div>
+
+          <div
+            class="mx-auto w-64 rounded-lg border-2 border-primary text-black"
+          >
+            <div class="mx-auto flex-none">
+              <select class="select-bordered select w-60 bg-white">
+                <option disabled selected>Peralatan Kantor</option>
+              </select>
+            </div>
+            <div class="mx-auto flex-none">
+              <select class="select-bordered select w-60 bg-white">
+                <option disabled selected>Percetakan</option>
+                <option>Printer Epson</option>
+                <option>Printer Canon</option>
+                <option>Printer Brother</option>
+                <option>Printer HP</option>
+              </select>
+            </div>
+            <div class="mx-auto flex-none">
+              <select class="select-bordered select w-60 bg-white">
+                <option disabled selected>Peralatan Rumah Tangga</option>
+              </select>
+            </div>
+            <div class="mx-auto flex-none">
+              <select class="select-bordered select w-60 bg-white">
+                <option disabled selected>Peralatan Melukis</option>
+              </select>
+            </div>
+            <div class="mx-auto flex-none">
+              <select class="select-bordered select w-60 bg-white">
+                <option disabled selected>Peralatan Cetak</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-control text-center">
+            <div class="flex-none">
+              <select
+                class="select-bordered select w-64 rounded-l-lg bg-primary"
+              >
+                <option disabled selected>Jenis Barang</option>
+                <option>T-shirts</option>
+                <option>Mugs</option>
+              </select>
+            </div>
+          </div>
+
+          <div
+            class="form-control mx-auto w-64 rounded-lg border-2 border-primary p-4"
+          >
+            <div class="form-control mb-3">
+              <label class="flex cursor-pointer space-x-4">
+                <input
+                  type="checkbox"
+                  checked="checked"
+                  class="checkbox-secondary checkbox"
+                />
+                <span class="label-text">Barang Grosir</span>
+              </label>
+            </div>
+            <div class="form-control mb-3">
+              <label class="flex cursor-pointer space-x-4">
+                <input
+                  type="checkbox"
+                  checked=""
+                  class="checkbox-secondary checkbox"
+                />
+                <span class="label-text">Barang Retail</span>
+              </label>
+            </div>
+            <div class="form-control">
+              <label class="flex cursor-pointer space-x-4">
+                <input
+                  type="checkbox"
+                  checked=""
+                  class="checkbox-secondary checkbox"
+                />
+                <span class="label-text">Barang Obral</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- col-span-9 -->
+        <div class="col-span-9 mr-14">
+          <div class="my-4 flex justify-between">
+            <div class="form-control w-3/4">
+              <div class="input-group">
+                <input
+                  type="text"
+                  placeholder="Pencarian barang"
+                  class="input-bordered input w-[500px] bg-white"
+                />
               </div>
             </div>
-            <div class="col-span-2">
-              <div class="grid grid-cols-3 grid-rows-none overflow-hidden">
-                <div class="box col-span-2">
-                  <div class="form-control">
-                    <div class="input-group">
-                      <input
-                        type="text"
-                        placeholder="Pencarian barang"
-                        class="input-bordered input w-[500px] bg-white"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="box">
-                  <div class="form-control">
-                    <div class="input-group">
-                      <select class="select-bordered select bg-white">
-                        <option disabled selected>Urut berdasarkan</option>
-                        <option>T-shirts</option>
-                        <option>Mugs</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
 
-                <!-- card produk grid -->
-                <div class="card card-compact h-56 w-40 shadow-sm">
-                  <figure>
-                    <img
-                      class="h-36"
-                      src="https://placeimg.com/400/225/arch"
-                      alt="Shoes"
-                    />
-                  </figure>
-                  <div class="">
-                    <h2 class="text-primary">Bulpoint Snowman</h2>
-                    <p class="text-gray">Rp. 1,200</p>
-                  </div>
-                </div>
-                <div class="card card-compact h-56 w-40 shadow-sm">
-                  <figure>
-                    <img
-                      class="h-36"
-                      src="https://placeimg.com/400/225/arch"
-                      alt="Shoes"
-                    />
-                  </figure>
-                  <div class="">
-                    <h2 class="text-primary">Bulpoint Snowman</h2>
-                    <p class="text-gray">Rp. 1,200</p>
-                  </div>
-                </div>
-                <div class="card card-compact h-56 w-40 shadow-sm">
-                  <figure>
-                    <img
-                      class="h-36"
-                      src="https://placeimg.com/400/225/arch"
-                      alt="Shoes"
-                    />
-                  </figure>
-                  <div class="">
-                    <h2 class="text-primary">Bulpoint Snowman</h2>
-                    <p class="text-gray">Rp. 1,200</p>
-                  </div>
-                </div>
-                <div class="card card-compact h-56 w-40 shadow-sm">
-                  <figure>
-                    <img
-                      class="h-36"
-                      src="https://placeimg.com/400/225/arch"
-                      alt="Shoes"
-                    />
-                  </figure>
-                  <div class="">
-                    <h2 class="text-primary">Bulpoint Snowman</h2>
-                    <p class="text-gray">Rp. 1,200</p>
-                  </div>
-                </div>
+            <div class="form-control w-1/4">
+              <div class="input-group">
+                <select class="select-bordered select bg-white">
+                  <option disabled selected>Urut berdasarkan</option>
+                  <option>T-shirts</option>
+                  <option>Mugs</option>
+                </select>
               </div>
             </div>
           </div>
-        </section>
+          <div class="grid grid-cols-5 grid-rows-1 gap-0 overflow-hidden">
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+            <div class="card mb-4 h-56 w-40 shadow-lg">
+              <figure>
+                <img
+                  class="h-36"
+                  src="https://placeimg.com/400/225/arch"
+                  alt="Shoes"
+                />
+              </figure>
+              <div class="p-2">
+                <h2 class="text-primary">Bulpoint Snowman</h2>
+                <p class="text-accent">Rp. 1,200</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- footer  -->
 
-        <footer class="@container footer col-span-4 bg-accent">
+        <footer class="@container footer col-span-12 bg-accent">
           <div class="ml-20 text-white">
             <span class="footer-title mt-20 text-white">Address</span>
             <p>
@@ -192,13 +616,76 @@
 
           <div class="text-white">
             <span class="footer-title mt-20 text-white">Contact Us</span>
-            <a class="link-hover link">031 - 79334824</a>
+            <div class="flex justify-between">
+              <i data-feather="phone"></i>
+              <a class="link-hover link"> 031 - 79334824</a>
+            </div>
             <a class="link-hover link">031 - 711234123</a>
-            <a class="link-hover link">031 - 79334824</a>
-            <a class="link-hover link">info@sitiwangimediatech.com</a>
+            <div class="flex justify-between">
+              <i data-feather="printer"></i>
+              <a class="link-hover link">031 - 79334824</a>
+            </div>
+            <div class="flex justify-between">
+              <i data-feather="mail"></i>
+              <a class="link-hover link">info@sitiwangimediatech.com</a>
+            </div>
           </div>
         </footer>
       </div>
     </div>
+
+    <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
+
+<!-- <div>
+
+
+
+
+
+      <div class="card card-compact h-56 w-40 shadow-sm">
+        <figure>
+          <img
+            class="h-36"
+            src="https://placeimg.com/400/225/arch"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="">
+          <h2 class="text-primary">Bulpoint Snowman</h2>
+          <p class="text-gray">Rp. 1,200</p>
+        </div>
+      </div>
+      <div class="card card-compact h-56 w-40 shadow-sm">
+        <figure>
+          <img
+            class="h-36"
+            src="https://placeimg.com/400/225/arch"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="">
+          <h2 class="text-primary">Bulpoint Snowman</h2>
+          <p class="text-gray">Rp. 1,200</p>
+        </div>
+      </div>
+      <div class="card card-compact h-56 w-40 shadow-sm">
+        <figure>
+          <img
+            class="h-36"
+            src="https://placeimg.com/400/225/arch"
+            alt="Shoes"
+          />
+        </figure>
+        <div class="">
+          <h2 class="text-primary">Bulpoint Snowman</h2>
+          <p class="text-gray">Rp. 1,200</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
