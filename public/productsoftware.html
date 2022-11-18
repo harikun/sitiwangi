@@ -33,9 +33,9 @@
       <!-- end navbar -->
 
       <!-- main -->
-      <main class="@container grid grid-cols-4 grid-rows-2 overflow-hidden">
+      <main class="@container grid grid-cols-12 grid-rows-none bg-white">
         <!-- hero section  -->
-        <div class="col-span-4">
+        <div class="col-span-12">
           <div
             class="hero h-[500px]"
             style="background-image: url(./asset/image/pexels-frans-va.png)"
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <section class="col-span-4 -my-1 bg-white">
+        <section class="col-span-12 -my-1 bg-white">
           <p class="text-center text-black">
             <button class="mx-2">Kategori</button>
             <button class="mx-2">Kategori</button>
@@ -67,9 +67,9 @@
           </p>
           <!-- judul kategory -->
           <div
-            class="-mt-8 grid h-[450px] grid-cols-2 grid-rows-none overflow-hidden bg-white"
+            class="-mt-8 grid grid h-[450px] grid-cols-12 grid-rows-none overflow-hidden bg-white"
           >
-            <div class="mt-10 ml-10">
+            <div class="col-span-6 mt-10 ml-10">
               <div class="relative">
                 <div
                   class="absolute top-8 left-6 h-56 w-56 rounded-lg bg-primary"
@@ -84,7 +84,7 @@
                 ></div>
               </div>
             </div>
-            <div class="-ml-10">
+            <div class="col-span-6 -ml-10">
               <span class="btn-primary btn mt-20">Judul Kategori</span>
               <div class="card px-10 pb-5 text-black shadow-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -98,86 +98,98 @@
         </section>
 
         <!-- alur pemesanan  -->
-        <div class="col-span-4 bg-white">
-          <h3 class="text-center text-2xl text-accent">
+        <div class="col-span-12 bg-white">
+          <h3 class="py-12 text-center text-2xl text-accent">
             Alur Pemesanan Aplikasi
           </h3>
         </div>
 
-        <div class="bg-white">
-          <div class="relative">
-            <object
-              data="./asset/Icon and Ilustration/Group 176.svg"
-              width="167"
-              height="179"
-              class="z-0 mx-auto"
-            ></object>
-            <img
-              src="./asset/image/consulting.png"
-              alt="icon consulting"
-              srcset=""
-              class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
-            />
-          </div>
-          <p class="text-center">Klien Konsultasi soal kebutuhan Mobile Apps</p>
-        </div>
-        <div class="bg-white">
-          <div class="relative">
-            <object
-              data="./asset/Icon and Ilustration/Group 177.svg"
-              width="167"
-              height="179"
-              class="z-0 mx-auto"
-            ></object>
-            <img
-              src="./asset/image/profiling_.png"
-              alt="icon consulting"
-              srcset=""
-              class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
-            />
-          </div>
-          <p class="text-center">Tim Membuat Proposal Sesuai Kebutuhan Klien</p>
-        </div>
-        <div class="bg-white">
-          <div class="relative">
-            <object
-              data="./asset/Icon and Ilustration/Group 178.svg"
-              width="167"
-              height="179"
-              class="z-0 mx-auto"
-            ></object>
-            <img
-              src="./asset/image/money_tran.png"
-              alt="icon consulting"
-              srcset=""
-              class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
-            />
-          </div>
-          <p class="text-center">Pembayaran DP dan Tanda Tanggan Kontrak</p>
-        </div>
-        <div class="bg-white">
-          <div class="relative">
-            <object
-              data="./asset/Icon and Ilustration/Group 179.svg"
-              width="167"
-              height="179"
-              class="z-0 mx-auto"
-            ></object>
-            <img
-              src="./asset/image/_analytics_.png"
-              alt="icon analityc"
-              srcset=""
-              class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
-            />
-            <p class="text-center">
-              Tim Melakukan Analisis Kebutuhan dan membuat rancangan Apps
+        <div class="col-span-12 flex justify-evenly">
+          <div class="col-span-3">
+            <div class="relative">
+              <object
+                data="./asset/Icon and Ilustration/Group 176.svg"
+                width="167"
+                height="179"
+                class="z-0 mx-auto"
+              ></object>
+              <img
+                src="./asset/image/consulting.png"
+                alt="icon consulting"
+                srcset=""
+                class="absolute top-[25%] left-[20%] mx-auto h-[100px] w-[150px]"
+              />
+            </div>
+            <p class="text-center text-black">
+              Klien Konsultasi soal <br />
+              kebutuhan Mobile Apps
             </p>
+          </div>
+          <div class="col-span-3">
+            <div class="relative">
+              <object
+                data="./asset/Icon and Ilustration/Group 177.svg"
+                width="167"
+                height="179"
+                class="z-0 mx-auto"
+              ></object>
+              <img
+                src="./asset/image/profiling_.png"
+                alt="icon consulting"
+                srcset=""
+                class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[148px]"
+              />
+            </div>
+            <p class="text-center text-black">
+              Tim Membuat Proposal <br />
+              Sesuai Kebutuhan Klien
+            </p>
+          </div>
+          <div class="col-span-3">
+            <div class="relative">
+              <object
+                data="./asset/Icon and Ilustration/Group 178.svg"
+                width="167"
+                height="179"
+                class="z-0 mx-auto"
+              ></object>
+              <img
+                src="./asset/image/money_tran.png"
+                alt="icon consulting"
+                srcset=""
+                class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[148px]"
+              />
+            </div>
+            <p class="text-center text-black">
+              Pembayaran DP dan <br />
+              Tanda Tanggan Kontrak
+            </p>
+          </div>
+          <div class="col-span-3">
+            <div class="relative">
+              <object
+                data="./asset/Icon and Ilustration/Group 179.svg"
+                width="167"
+                height="179"
+                class="z-0 mx-auto"
+              ></object>
+              <img
+                src="./asset/image/_analytics_.png"
+                alt="icon analityc"
+                srcset=""
+                class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
+              />
+              <p class="text-center text-black">
+                Tim Melakukan Analisis Kebutuhan <br />
+                dan membuat rancangan Apps
+              </p>
+            </div>
           </div>
         </div>
 
-        <div class="@container col-span-4">
-          <div class="grid grid-cols-3 grid-rows-none overflow-hidden">
-            <div class="bg-white">
+        <div class="@container col-span-12">
+          <div class="mx-32 flex justify-evenly">
+            <div class="col-span-3">
               <div class="relative">
                 <object
                   data="./asset/Icon and Ilustration/Group 180.svg"
@@ -189,12 +201,15 @@
                   src="./asset/image/social-media.png"
                   alt="icon analityc"
                   srcset=""
-                  class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
+                  class="absolute top-[25%] left-[23%] mx-auto h-[100px] w-[150px]"
                 />
-                <p class="text-center">Finalisasi Mobile Apps dan Installasi</p>
+                <p class="text-center text-black">
+                  Finalisasi Mobile Apps <br />
+                  dan Installasi
+                </p>
               </div>
             </div>
-            <div class="bg-white">
+            <div class="col-span-3">
               <div class="relative">
                 <object
                   data="./asset/Icon and Ilustration/Group 181.svg"
@@ -206,12 +221,12 @@
                   src="./asset/image/analytics_.png"
                   alt="icon analityc"
                   srcset=""
-                  class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
+                  class="absolute top-[25%] left-[23%] mx-auto h-[100px] w-[150px]"
                 />
-                <p class="text-center">Review Draft Mobile Apps</p>
+                <p class="text-center text-black">Review Draft Mobile Apps</p>
               </div>
             </div>
-            <div class="bg-white">
+            <div class="col-span-3">
               <div class="relative">
                 <object
                   data="./asset/Icon and Ilustration/Group 182.svg"
@@ -223,16 +238,19 @@
                   src="./asset/image/online_tea.png"
                   alt="icon analityc"
                   srcset=""
-                  class="absolute top-[25%] left-[25%] mx-auto h-[100px] w-[150px]"
+                  class="absolute top-[25%] left-[23%] mx-auto h-[100px] w-[150px]"
                 />
-                <p class="text-center">Review Rancangan Apps kepada Klien</p>
+                <p class="text-center text-black">
+                  Review Rancangan Apps <br />
+                  kepada Klien
+                </p>
               </div>
             </div>
           </div>
         </div>
 
         <!-- form kebutuhan  -->
-        <div class="@container hero col-span-4 h-[500px]">
+        <div class="@container hero col-span-12 h-[500px]">
           <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="text-center lg:text-left">
               <object
@@ -281,8 +299,8 @@
                   />
                 </div>
 
-                <div class="form-control mt-6">
-                  <button class="btn-primary btn">Submit</button>
+                <div class="mt-6">
+                  <button class="btn-primary btn float-right">Submit</button>
                 </div>
               </div>
             </div>
@@ -290,28 +308,38 @@
         </div>
 
         <!-- table pricing -->
-        <div class="@container col-span-4">
-          <div class="overflow-x-auto">
-            <table class="table w-full">
+        <div class="@container col-span-12">
+          <div
+            class="mx-32 mt-52 overflow-visible rounded-lg border-2 text-black shadow-2xl"
+          >
+            <table class="h-[585px] w-full text-center">
               <!-- head -->
               <thead>
                 <tr>
                   <th></th>
                   <th>
-                    <p>STANDART</p>
-                    <p>RP. 3,000,000</p>
+                    <div class="-mt-8 rounded-lg bg-secondary text-white">
+                      <p>STANDART</p>
+                      <p>Rp. 3,000,000</p>
+                    </div>
                   </th>
                   <th>
-                    <p>BUSSINESS</p>
-                    <p>RP. 4,500,000</p>
+                    <div class="-mt-8 rounded-lg bg-secondary text-white">
+                      <p>BUSSINESS</p>
+                      <p>Rp. 4,500,000</p>
+                    </div>
                   </th>
                   <th>
-                    <p>CORPORATE</p>
-                    <p>RP. 8,600,000</p>
+                    <div class="-mt-8 rounded-lg bg-primary text-white">
+                      <p>CORPORATE</p>
+                      <p>Rp. 8,600,000</p>
+                    </div>
                   </th>
                   <th>
-                    <p>CUSTOM</p>
-                    <p>CALL US FOR INFO</p>
+                    <div class="-mt-8 rounded-lg bg-accent text-white">
+                      <p>CUSTOM</p>
+                      <p>CALL US FOR INFO</p>
+                    </div>
                   </th>
                 </tr>
               </thead>
@@ -336,26 +364,26 @@
                 <!-- row 3 -->
                 <tr>
                   <th>Integrated Social Media</th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>✓</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                  <td>✓</td>
                 </tr>
                 <!-- row 4 -->
                 <tr>
                   <th>Admins Tools</th>
                   <td></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>✓</td>
+                  <td>✓</td>
                 </tr>
                 <!-- row 5 -->
                 <tr>
                   <th>Documentation</th>
                   <td></td>
                   <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>✓</td>
+                  <td>✓</td>
                 </tr>
                 <!-- row 6 -->
                 <tr>
@@ -363,43 +391,58 @@
                   <td></td>
                   <td></td>
                   <td></td>
-                  <td></td>
+                  <td>✓</td>
                 </tr>
                 <!-- row 7 -->
                 <tr>
                   <th>Domain .com/.co.id/.id</th>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
+                  <td>✓</td>
+                  <td>✓</td>
+                  <td>✓</td>
+                  <td>✓</td>
                 </tr>
                 <tr>
                   <th></th>
-                  <td><button class="btn">Book</button></td>
-                  <td><button class="btn">Book</button></td>
-                  <td><button class="btn">Book</button></td>
-                  <td><button class="btn">Book</button></td>
+                  <td><button class="btn-secondary btn">Book</button></td>
+                  <td><button class="btn-secondary btn">Book</button></td>
+                  <td><button class="btn-primary btn">Book</button></td>
+                  <td><button class="btn-accent btn">Book</button></td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
 
-        <div class="col-span-4 h-24 bg-white">
-          <h3 class="text-center text-2xl text-accent">Our Work</h3>
+        <div class="col-span-12 h-24 bg-white">
+          <h3 class="py-12 text-center text-2xl text-accent">Our Work</h3>
         </div>
 
         <!-- our work -->
-        <div class="@container col-span-4 h-[470px] bg-white">
-          <div class="grid grid-cols-3 grid-rows-none overflow-hidden">
-            <img src="./asset/image/our-work.png" alt="our work" srcset="" />
-            <img src="./asset/image/our-work.png" alt="our work" srcset="" />
-            <img src="./asset/image/our-work.png" alt="our work" srcset="" />
+        <div class="@container col-span-12 mx-14 h-[470px] bg-white">
+          <div class="grid grid-cols-12 grid-rows-none overflow-hidden">
+            <img
+              src="./asset/image/our-work.png"
+              alt="our work"
+              srcset=""
+              class="col-span-4"
+            />
+            <img
+              src="./asset/image/our-work.png"
+              alt="our work"
+              srcset=""
+              class="col-span-4"
+            />
+            <img
+              src="./asset/image/our-work.png"
+              alt="our work"
+              srcset=""
+              class="col-span-4"
+            />
           </div>
         </div>
 
         <!-- footer  -->
-        <footer class="@container footer col-span-4 bg-accent">
+        <footer class="@container footer col-span-12 bg-accent">
           <div class="ml-20 text-white">
             <span class="footer-title mt-20 text-white">Address</span>
             <p>
@@ -418,13 +461,27 @@
 
           <div class="text-white">
             <span class="footer-title mt-20 text-white">Contact Us</span>
-            <a class="link-hover link">031 - 79334824</a>
+            <div class="flex justify-between">
+              <i data-feather="phone"></i>
+              <a class="link-hover link"> 031 - 79334824</a>
+            </div>
             <a class="link-hover link">031 - 711234123</a>
-            <a class="link-hover link">031 - 79334824</a>
-            <a class="link-hover link">info@sitiwangimediatech.com</a>
+            <div class="flex justify-between">
+              <i data-feather="printer"></i>
+              <a class="link-hover link">031 - 79334824</a>
+            </div>
+            <div class="flex justify-between">
+              <i data-feather="mail"></i>
+              <a class="link-hover link">info@sitiwangimediatech.com</a>
+            </div>
           </div>
         </footer>
       </main>
     </div>
+
+    <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
