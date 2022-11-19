@@ -31,13 +31,13 @@
         </div>
       </div>
 
-      <main class="grid grid-cols-3 gap-0 overflow-hidden">
-        <section class="col-span-3 bg-secondary">
+      <main class="grid grid-cols-12 gap-0 overflow-hidden">
+        <section class="col-span-12 bg-secondary">
           <div class="hero h-[490px]">
             <div
-              class="hero-content grid grid-cols-2 grid-rows-none overflow-visible"
+              class="hero-content grid grid-cols-12 grid-rows-none overflow-visible"
             >
-              <div>
+              <div class="col-span-6">
                 <h1 class="text-5xl font-bold text-white">
                   TESTIMONI PELANGGAN KAMI
                 </h1>
@@ -50,15 +50,15 @@
               </div>
               <img
                 src="./asset/image/hero-contact.png"
-                class="mx-auto -mb-24 max-w-sm"
+                class="col-span-6 mx-auto -mb-24 max-w-sm"
                 alt="hero testimoni"
               />
             </div>
           </div>
         </section>
 
-        <section class="@container col-span-3 h-[470px] bg-white">
-          <div class="mt-24 h-24 grid-cols-3 bg-white">
+        <section class="col-span-12 h-[470px] bg-white">
+          <div class="mt-24 h-24 bg-white">
             <h3 class="text-center text-2xl text-accent">Our Social Media</h3>
           </div>
           <div class="grid grid-cols-5 gap-1 overflow-hidden">
@@ -100,7 +100,7 @@
                 </h5>
               </div>
             </div>
-            <div class="@container text-center">
+            <div class="text-center">
               <div class="avatar">
                 <img src="./asset/Icon and Ilustration/icon_fb.svg" />
               </div>
@@ -113,10 +113,8 @@
           </div>
         </section>
 
-        <section
-          class="col-span-3 grid h-[440px] grid-cols-3 gap-0 overflow-hidden bg-info"
-        >
-          <div class="pt-24">
+        <section class="col-span-12 grid h-[440px] grid-cols-12 gap-1 bg-info">
+          <div class="col-span-4 pt-24">
             <img
               src="./asset/Icon and Ilustration/online_shopping_outline.svg"
               alt="icon shopping"
@@ -124,7 +122,7 @@
               class="mx-auto"
             />
           </div>
-          <div class="col-span-2">
+          <div class="col-span-8">
             <div class="pt-24">
               <h3 class="mb-8 text-2xl text-accent">Our Market Place</h3>
               <p class="mb-16 text-black">
@@ -160,50 +158,50 @@
           </div>
         </section>
 
-        <section class="@container col-span-3 h-[360px] bg-white">
-          <div class="mt-14 h-24 grid-cols-3 bg-white">
+        <section class="col-span-12 h-[360px] bg-white">
+          <div class="col-span-12 mt-14 h-24 bg-white">
             <h3 class="text-center text-2xl text-accent">Our Contact</h3>
           </div>
-          <div class="grid grid-cols-3 gap-1 overflow-hidden">
-            <div class="grid h-28 w-[330px] grid-cols-3 gap-0 overflow-hidden">
-              <div class="">
+          <div class="mx-14 grid grid-cols-12 gap-1 overflow-hidden">
+            <div class="col-span-4 grid h-28 w-[330px] grid-cols-12">
+              <div class="col-span-4">
                 <img
                   src="./asset/Icon and Ilustration/contact-bg-pink.svg"
                   alt="bg pink"
                   srcset=""
                 />
               </div>
-              <div class="col-span-2">
+              <div class="col-span-8">
                 <div class="text-center">
                   <p class="mt-6">Phone</p>
                   <p>031 - 77712123</p>
                 </div>
               </div>
             </div>
-            <div class="grid h-28 w-[330px] grid-cols-3 gap-0 overflow-hidden">
-              <div class="">
+            <div class="col-span-4 grid h-28 w-[330px] grid-cols-12">
+              <div class="col-span-4">
                 <img
                   src="./asset/Icon and Ilustration/contact-bg-pink.svg"
                   alt="bg pink"
                   srcset=""
                 />
               </div>
-              <div class="col-span-2">
+              <div class="col-span-8">
                 <div class="text-center">
                   <p class="mt-6">Whatsapps</p>
                   <p>08734376324</p>
                 </div>
               </div>
             </div>
-            <div class="grid h-28 w-[330px] grid-cols-3 gap-0 overflow-hidden">
-              <div class="">
+            <div class="col-span-4 grid h-28 w-[330px] grid-cols-12">
+              <div class="col-span-4">
                 <img
                   src="./asset/Icon and Ilustration/contact-bg-pink.svg"
                   alt="bg pink"
                   srcset=""
                 />
               </div>
-              <div class="col-span-2">
+              <div class="col-span-8">
                 <div class="text-center">
                   <p class="mt-6">Email</p>
                   <p>info@sitiwangi.com</p>
@@ -214,8 +212,10 @@
         </section>
       </main>
 
-      <div class="col-span-3 bg-info">
-        <h3 class="text-center text-2xl text-primary">Adress and Contact</h3>
+      <div class="col-span-12 bg-info">
+        <h3 class="h-24 p-6 text-center text-2xl text-primary">
+          Adress and Contact
+        </h3>
       </div>
 
       <footer class="@container footer col-span-3 bg-info">
@@ -226,32 +226,44 @@
           class="my-auto mx-auto h-48 w-80"
         />
 
-        <div class="ml-20 text-white">
-          <span class="footer-title mt-10 text-accent">Address</span>
-          <p class="text-black">
+        <div class="ml-20 text-black">
+          <span class="footer-title mt-20 text-accent">Address</span>
+          <p>
             Jl. Raya Mantup Desa Pelang RT. 01 RW. 02
             <br />
             (selatan Pustu) <br />
             Kec. Kembangbahu Kab. Lamongan.
           </p>
 
-          <span class="footer-title mt-5 text-accent">Open Time</span>
-          <p class="text-black">
+          <span class="footer-title mt-10 text-accent">Open Time</span>
+          <p>
             Mon - Fri 06.30 - 21.00 <br />
             Sunday 08.00-22.00
           </p>
         </div>
 
         <div class="text-black">
-          <span class="footer-title mt-10 text-accent">Contact Us</span>
-          <a class="link-hover link"
-            ><i data-feather="circle"></i> 031 - 79334824</a
-          >
+          <span class="footer-title mt-20 text-accent">Contact Us</span>
+          <div class="flex justify-between">
+            <i data-feather="phone" class="text-primary"></i>
+            <a class="link-hover link"> 031 - 79334824</a>
+          </div>
           <a class="link-hover link">031 - 711234123</a>
-          <a class="link-hover link">031 - 79334824</a>
-          <a class="link-hover link">info@sitiwangimediatech.com</a>
+          <div class="flex justify-between">
+            <i data-feather="printer" class="text-primary"></i>
+            <a class="link-hover link">031 - 79334824</a>
+          </div>
+          <div class="flex justify-between">
+            <i data-feather="mail" class="text-primary"></i>
+            <a class="link-hover link">info@sitiwangimediatech.com</a>
+          </div>
         </div>
       </footer>
     </div>
+
+    <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
