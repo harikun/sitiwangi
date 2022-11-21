@@ -2475,6 +2475,82 @@ body[dir="rtl"] .checkbox:checked,
   right: 2.5rem;
 }
 
+.-bottom-4 {
+  bottom: -1rem;
+}
+
+.-right-4 {
+  right: -1rem;
+}
+
+.-bottom-6 {
+  bottom: -1.5rem;
+}
+
+.-right-6 {
+  right: -1.5rem;
+}
+
+.-bottom-8 {
+  bottom: -2rem;
+}
+
+.-right-8 {
+  right: -2rem;
+}
+
+.-bottom-10 {
+  bottom: -2.5rem;
+}
+
+.-right-10 {
+  right: -2.5rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
+.right-20 {
+  right: 5rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.bottom-24 {
+  bottom: 6rem;
+}
+
+.bottom-32 {
+  bottom: 8rem;
+}
+
+.bottom-36 {
+  bottom: 9rem;
+}
+
+.top-36 {
+  top: 9rem;
+}
+
+.left-24 {
+  left: 6rem;
+}
+
+.right-12 {
+  right: 3rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.right-36 {
+  right: 9rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -2941,6 +3017,10 @@ body[dir="rtl"] .checkbox:checked,
   height: 486px;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
 .max-h-44 {
   max-height: 11rem;
 }
@@ -3059,6 +3139,14 @@ body[dir="rtl"] .checkbox:checked,
 
 .w-\[276px\] {
   width: 276px;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .max-w-sm {
